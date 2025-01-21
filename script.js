@@ -14,7 +14,7 @@ let totalNmbr = document.getElementById('total-nmbr')
     saveEl.textContent += both;
 
     total += count;
-    totalNmbr.textContent = total;
+    totalNmbr.textContent = " " + total;
 
     count = 0;
     counter.textContent = 0;
